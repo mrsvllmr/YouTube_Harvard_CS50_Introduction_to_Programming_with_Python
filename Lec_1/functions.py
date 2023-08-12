@@ -6,10 +6,13 @@ def main():
     sayhello(inputname)
     sayhello()  # will make use of the default value
 
+
 # define your own function
 def sayhello(name="world"):  # parameter with a default value
     # Say hello to the user
-    print(f"Hello, {name}")
+    # print(f"Hello, {name}")
+    return f"Hello, {name}"
 
 
-main()
+if __name__ == "__main__":
+    main()
